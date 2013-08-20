@@ -1,3 +1,8 @@
+## 1.22.1 (2013-08-20)
+* FAKE VERSION NUMBER.
+* Fork of the original 1.22.0 + a cherrypick to stop reconnecting when
+  the worker doesn't fork.
+
 ## 1.22.0 (2012-08-21)
 
 * unregister signal handlers in child process when ENV["TERM_CHILD"] is set (@dylanasmith, #621)
